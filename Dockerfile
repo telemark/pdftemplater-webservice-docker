@@ -4,8 +4,8 @@
 #
 ###########################################################
 
-# Setting the base to nodejs 4.2.4
-FROM node:4.2.4-slim
+# Setting the base to nodejs 4.3.1
+FROM node:4.3.1-slim
 
 # Maintainer
 MAINTAINER Geir Gåsodden

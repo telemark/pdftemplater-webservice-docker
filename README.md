@@ -10,8 +10,10 @@ curl \
   -F "description=Love my description" \
   -F "body=My body is beautiful" \
   -F "file=@test/data/testdoc.docx" \
-  http://192.168.99.100:3000 > converted.pdf
+  http://192.168.99.100 > converted.pdf
 ```
+
+returns [converted.pdf](test/data/converted.pdf)
 
 ## Docker
 
@@ -25,4 +27,16 @@ Run the image
 
 ```sh
 docker run -d -p 80:3000 --name pdf pdftemplater
+```
+
+or use the prebuilt from [hub.docker.com](https://hub.docker.com/r/telemark/pdftemplater-webservice-docker)
+
+```sh
+$ docker pull telemark/pdftemplater-webservice-docker
+```
+
+and the run the image
+
+```sh
+$ docker run -d -p 80:3000 --name pdf telemark/pdftemplater-webservice-docker
 ```
