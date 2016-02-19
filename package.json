@@ -1,0 +1,48 @@
+{
+  "name": "pdftemplater-webservice-docker",
+  "description": "Create pdf document from template",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "keywords": [
+    "convert",
+    "pdf",
+    "template",
+    "tfk",
+    "Telemark fylkeskommune"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/telemark/pdftemplater-webservice-docker.git"
+  },
+  "bugs": {
+    "url": "http://github.com/telemark/pdftemplater-webservice-docker/issues"
+  },
+  "homepage": "https://github.com/telemark/pdftemplater-webservice-docker",
+  "engines": {
+    "node": ">=4.3.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tap --reporter=spec test/*.js",
+    "coverage": "tap test/*.js --coverage",
+    "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
+    "setup": "npm install && node setup.js"
+  },
+  "devDependencies": {
+    "coveralls": "^2.11.6",
+    "standard": "^6.0.7",
+    "tap": "^5.6.0"
+  },
+  "dependencies": {
+    "docxtemplater": "^2.0.0",
+    "hapi": "^13.0.0",
+    "inert": "^3.2.0",
+    "uuid": "^2.0.1",
+    "unoconv2": "^1.0.0"
+  }
+}
