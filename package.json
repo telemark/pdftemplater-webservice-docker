@@ -1,7 +1,7 @@
 {
   "name": "pdftemplater-webservice-docker",
   "description": "Create pdf document from template",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
@@ -24,25 +24,26 @@
   },
   "homepage": "https://github.com/telemark/pdftemplater-webservice-docker",
   "engines": {
-    "node": ">=4.3.1"
+    "node": ">=4.5.0"
   },
   "main": "index.js",
   "scripts": {
-    "test": "standard && tap --reporter=spec test/*.js",
+    "test": "standard && nsp check && tap --reporter=spec test/*.js",
     "coverage": "tap test/*.js --coverage",
     "coveralls": "tap --cov --coverage-report=lcov test/*.js && cat coverage/lcov.info | coveralls",
     "setup": "npm install && node setup.js"
   },
   "devDependencies": {
-    "coveralls": "^2.11.6",
-    "standard": "^6.0.7",
-    "tap": "^5.6.0"
+    "coveralls": "2.11.12",
+    "nsp": "2.6.1",
+    "standard": "7.1.2",
+    "tap": "6.3.2"
   },
   "dependencies": {
-    "docxtemplater": "^2.0.0",
-    "hapi": "^13.0.0",
-    "inert": "^3.2.0",
-    "uuid": "^2.0.1",
-    "unoconv2": "^1.0.0"
+    "docxtemplater": "2.1.4",
+    "hapi": "14.2.0",
+    "inert": "4.0.1",
+    "unoconv2": "1.0.0",
+    "uuid": "2.0.2"
   }
 }
