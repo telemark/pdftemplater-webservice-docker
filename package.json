@@ -40,7 +40,7 @@
     "tap": "7.0.0"
   },
   "dependencies": {
-    "docxtemplater": "2.1.4",
+    "docxtemplater": "2.1.5",
     "hapi": "15.0.1",
     "inert": "4.0.1",
     "unoconv2": "1.0.0",
