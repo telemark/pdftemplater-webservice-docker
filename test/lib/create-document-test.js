@@ -1,7 +1,7 @@
 'use strict'
 
 var tap = require('tap')
-var createDocument = require('../lib/create-document')
+var createDocument = require('../../lib/create-document')
 
 tap.test('requires an options object', function (test) {
   var options = false

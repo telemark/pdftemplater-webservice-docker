@@ -1,7 +1,7 @@
 'use strict'
 
 var tap = require('tap')
-var handlers = require('../handlers')
+var handlers = require('../../handlers/index')
 
 tap.equal(Object.keys(handlers).length, 2, 'There are 2 different handlers')
 

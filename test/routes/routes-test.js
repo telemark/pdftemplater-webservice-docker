@@ -1,6 +1,6 @@
 'use strict'
 
 var tap = require('tap')
-var routes = require('../routes')
+var routes = require('../../routes/index')
 
 tap.equal(routes.length, 2, 'There are 2 different routes')
