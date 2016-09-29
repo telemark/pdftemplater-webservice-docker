@@ -1,7 +1,7 @@
 {
   "name": "pdftemplater-webservice-docker",
   "description": "Create pdf document from template",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "license": "MIT",
   "author": {
     "name": "Geir Gåsodden",
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/telemark/pdftemplater-webservice-docker",
   "engines": {
-    "node": ">=4.5.0"
+    "node": ">=4.6.0"
   },
   "main": "index.js",
   "scripts": {
