@@ -1,17 +1,17 @@
 'use strict'
 
-var fs = require('fs')
-var uuid = require('uuid')
-var unoconv = require('unoconv2')
-var createDocument = require('../lib/create-document')
+const fs = require('fs')
+const uuid = require('uuid')
+const unoconv = require('unoconv2')
+const generateDocx = require('generate-docx')
 
-function showFrontpage (request, reply) {
+module.exports.showFrontpage = (request, reply) => {
   reply({
     message: 'Only POST is supported'
   })
 }
 
-function handleUpload (request, reply) {
+module.exports.handleUpload = (request, reply) => {
   var data = request.payload
   if (data.file) {
     var nameArray = data.file.hapi.filename.split('.')
@@ -34,12 +34,16 @@ function handleUpload (request, reply) {
         reply(err)
       } else {
         delete data['file']
-        var options = {
-          templateFilePath: fileNameTempOriginal,
-          templateData: data,
-          docFilePath: fileNameTempConverted
+        const options = {
+          template: {
+            filePath: 'fileNameTempOriginal',
+            data: data
+          },
+          save: {
+            filePath: fileNameTempConverted
+          }
         }
-        createDocument(options, function (err, result) {
+        generateDocx(options, function (err, result) {
           if (err) {
             reply(err)
           } else {
@@ -68,7 +72,3 @@ function handleUpload (request, reply) {
     })
   }
 }
-
-module.exports.showFrontpage = showFrontpage
-
-module.exports.handleUpload = handleUpload
