@@ -36,7 +36,7 @@ module.exports.handleUpload = (request, reply) => {
         delete data['file']
         const options = {
           template: {
-            filePath: 'fileNameTempOriginal',
+            filePath: fileNameTempOriginal,
             data: data
           },
           save: {

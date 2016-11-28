@@ -26,7 +26,7 @@ $ docker build -t pdftemplater .
 Run the image
 
 ```sh
-docker run -d -p 80:3000 --name pdf pdftemplater
+$ docker run -d -p 80:3000 --name pdf pdftemplater
 ```
 
 or use the prebuilt from [hub.docker.com](https://hub.docker.com/r/telemark/pdftemplater-webservice-docker)
