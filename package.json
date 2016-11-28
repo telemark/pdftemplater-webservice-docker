@@ -3,6 +3,7 @@
   "description": "Create pdf document from template",
   "version": "2.0.2",
   "license": "MIT",
+  "private": true,
   "author": {
     "name": "Geir Gåsodden",
     "email": "geir.gasodden@pythonia.no",
