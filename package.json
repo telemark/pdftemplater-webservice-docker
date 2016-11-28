@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/telemark/pdftemplater-webservice-docker",
   "engines": {
-    "node": ">=4.6.0"
+    "node": ">=4.6.2"
   },
   "main": "index.js",
   "scripts": {
