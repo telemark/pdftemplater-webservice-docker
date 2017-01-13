@@ -5,14 +5,14 @@ var handlers = require('../handlers')
 var routes = [
   {
     method: 'POST',
-    path: '*',
+    path: '/{path*}',
+    handler: handlers.handleUpload,
     config: {
       payload: {
         output: 'stream',
         parse: true,
         allow: 'multipart/form-data'
-      },
-      handler: handlers.handleUpload
+      }
     }
   },
   {
