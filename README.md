@@ -40,3 +40,6 @@ and the run the image
 ```sh
 $ docker run -d -p 80:3000 --name pdf telemark/pdftemplater-webservice-docker
 ```
+
+## License
+[MIT](LICENSE)

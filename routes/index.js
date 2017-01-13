@@ -5,7 +5,7 @@ var handlers = require('../handlers')
 var routes = [
   {
     method: 'POST',
-    path: '/',
+    path: '*',
     config: {
       payload: {
         output: 'stream',
