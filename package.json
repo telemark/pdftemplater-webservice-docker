@@ -42,7 +42,7 @@
     "tap": "9.0.3"
   },
   "dependencies": {
-    "generate-docx": "1.0.1",
+    "generate-docx": "1.0.2",
     "hapi": "16.1.0",
     "inert": "4.1.0",
     "unoconv2": "1.0.0",
