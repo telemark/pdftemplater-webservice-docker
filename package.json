@@ -36,10 +36,10 @@
     "setup": "npm install"
   },
   "devDependencies": {
-    "coveralls": "2.11.15",
+    "coveralls": "2.11.16",
     "nsp": "2.6.2",
     "standard": "8.6.0",
-    "tap": "10.0.0"
+    "tap": "10.0.2"
   },
   "dependencies": {
     "generate-docx": "1.0.2",
