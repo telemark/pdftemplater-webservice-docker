@@ -1,6 +1,8 @@
 [![Build Status](https://travis-ci.org/telemark/pdftemplater-webservice-docker.svg?branch=master)](https://travis-ci.org/telemark/pdftemplater-webservice-docker)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 # pdftemplater-webservice-docker
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/pdftemplater-webservice-docker.svg)](https://greenkeeper.io/)
 Upload .docx-template and data. Get formatted pdf in return
 
 
