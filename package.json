@@ -1,7 +1,7 @@
 {
   "name": "pdftemplater-webservice-docker",
   "description": "Create pdf document from template",
-  "version": "3.1.9",
+  "version": "3.1.11",
   "license": "MIT",
   "private": true,
   "author": {
@@ -39,12 +39,12 @@
     "coveralls": "2.11.16",
     "nsp": "2.6.2",
     "standard": "10.0.1",
-    "tap": "10.3.0"
+    "tap": "10.3.2"
   },
   "dependencies": {
     "generate-docx": "1.1.1",
-    "hapi": "16.1.0",
-    "inert": "4.1.0",
+    "hapi": "16.1.1",
+    "inert": "4.2.0",
     "unoconv2": "1.0.0",
     "uuid": "3.0.1"
   }
