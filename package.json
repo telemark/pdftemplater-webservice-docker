@@ -1,7 +1,7 @@
 {
   "name": "pdftemplater-webservice-docker",
   "description": "Create pdf document from template",
-  "version": "3.1.13",
+  "version": "3.1.14",
   "license": "MIT",
   "private": true,
   "author": {
@@ -36,7 +36,7 @@
     "setup": "npm install"
   },
   "devDependencies": {
-    "coveralls": "2.13.0",
+    "coveralls": "2.11.16",
     "nsp": "2.6.3",
     "standard": "10.0.1",
     "tap": "10.3.2"
