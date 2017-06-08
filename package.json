@@ -1,7 +1,7 @@
 {
   "name": "pdftemplater-webservice-docker",
   "description": "Create pdf document from template and data",
-  "version": "3.2.4",
+  "version": "3.2.5",
   "license": "MIT",
   "private": true,
   "author": {
