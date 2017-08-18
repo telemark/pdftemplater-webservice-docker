@@ -39,7 +39,7 @@
     "coveralls": "2.13.1",
     "nsp": "2.7.0",
     "standard": "10.0.3",
-    "tap": "10.5.0"
+    "tap": "10.7.2"
   },
   "dependencies": {
     "generate-docx": "1.3.0",
