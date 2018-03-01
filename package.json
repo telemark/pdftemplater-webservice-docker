@@ -38,14 +38,14 @@
   "devDependencies": {
     "coveralls": "3.0.0",
     "nsp": "3.2.1",
-    "standard": "11.0.0",
-    "tap": "11.1.0"
+    "standard": "11.1.0",
+    "tap": "11.1.1"
   },
   "dependencies": {
-    "hapi": "17.1.1",
+    "hapi": "16.6.3",
     "generate-docx": "2.0.0",
 
-    "inert": "5.0.0-rc1",
+    "inert": "4.2.1",
     "unoconv2": "1.0.0",
     "uuid": "3.2.1"
   }
