@@ -1,5 +1,5 @@
 # Setting the base to nodejs 4.8.2
-FROM node:4.8.2-slim
+FROM node:4.9.1-slim
 
 # Maintainer
 MAINTAINER Geir Gåsodden
