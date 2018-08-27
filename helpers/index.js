@@ -3,8 +3,8 @@ const storage = require('@google-cloud/storage')()
 
 const Config = require('../config')
 
-const templateBucket = storage.bucket(Config.GCS_TEMPLATE_BUCKET_NAME)
 const storageBucket = storage.bucket(Config.GCS_STORAGE_BUCKET_NAME)
+const templateBucket = storage.bucket(Config.GCS_TEMPLATE_BUCKET_NAME)
 
 module.exports.uploadToGCS = async (pdfPath) => {
     await storageBucket.upload(pdfPath, {
