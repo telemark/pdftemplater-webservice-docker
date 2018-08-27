@@ -1,8 +1,8 @@
 # Setting the base to nodejs 4.8.2
-FROM node:4.9.1-slim
+FROM node:8.11.4-slim
 
 # Maintainer
-MAINTAINER Geir Gåsodden
+MAINTAINER PanJ
 
 #### Begin setup ####
 
@@ -11,6 +11,9 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y git unoc
 
 # Bundle app source
 COPY . /src
+COPY ./fonts /usr/share/fonts/truetype
+
+RUN fc-cache -f -v
 
 # Change working directory
 WORKDIR "/src"
