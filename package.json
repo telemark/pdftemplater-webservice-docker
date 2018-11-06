@@ -42,7 +42,7 @@
     "tap": "12.0.1"
   },
   "dependencies": {
-    "hapi": "16.6.3",
+    "hapi": "16.7.0",
     "generate-docx": "2.1.0",
 
     "inert": "4.2.1",
