@@ -1,5 +1,7 @@
 # IDE
 .idea
+.vs
+.vscode
 
 # OS X
 .DS_Store
@@ -38,3 +40,6 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# Package-lock
+package-lock.json

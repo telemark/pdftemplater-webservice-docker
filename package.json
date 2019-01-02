@@ -33,7 +33,8 @@
     "test": "standard && npm audit && tap --reporter=spec test/**/*.js",
     "coverage": "tap test/**/*.js --coverage",
     "coveralls": "tap --cov --coverage-report=lcov test/**/*.js && cat coverage/lcov.info | coveralls",
-    "setup": "npm install"
+    "standard-fix": "standard --fix",
+    "refresh": "rm -rf node_modules && rm packge-lock.json && npm install"
   },
   "devDependencies": {
     "coveralls": "3.0.2",
@@ -43,7 +44,6 @@
   "dependencies": {
     "hapi": "16.7.0",
     "generate-docx": "2.1.0",
-
     "inert": "4.2.1",
     "unoconv2": "1.0.0",
     "uuid": "3.3.2"
