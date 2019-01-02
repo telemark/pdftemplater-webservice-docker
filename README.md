@@ -1,6 +1,5 @@
 [![Build Status](https://travis-ci.org/telemark/pdftemplater-webservice-docker.svg?branch=master)](https://travis-ci.org/telemark/pdftemplater-webservice-docker)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/pdftemplater-webservice-docker.svg)](https://greenkeeper.io/)
 
 # pdftemplater-webservice-docker
 
@@ -46,5 +45,3 @@ $ docker run -d -p 80:3000 --name pdf telemark/pdftemplater-webservice-docker
 ## License
 
 [MIT](LICENSE)
-
-![Robohash image of pdftemplater-webservice-docker](https://robots.kebabstudios.party/pdftemplater-webservice-docker.png "Robohash image of pdftemplater-webservice-docker")
