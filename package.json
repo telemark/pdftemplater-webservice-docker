@@ -18,14 +18,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/telemark/pdftemplater-webservice-docker.git"
+    "url": "git+https://github.com/telemark/pdftemplater-webservice-docker.git"
   },
   "bugs": {
-    "url": "http://github.com/telemark/pdftemplater-webservice-docker/issues"
+    "url": "https://github.com/telemark/pdftemplater-webservice-docker/issues"
   },
   "homepage": "https://github.com/telemark/pdftemplater-webservice-docker",
   "engines": {
-    "node": ">=4.8.2"
+    "node": ">=10.15.0"
   },
   "main": "index.js",
   "scripts": {
