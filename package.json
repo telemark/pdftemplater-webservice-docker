@@ -23,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/telemark/pdftemplater-webservice-docker/issues"
   },
-  "homepage": "https://github.com/telemark/pdftemplater-webservice-docker",
+  "homepage": "https://github.com/telemark/pdftemplater-webservice-docker#readme",
   "engines": {
     "node": ">=10.15.0"
   },
@@ -34,7 +34,7 @@
     "coverage": "tap test/**/*.js --coverage",
     "coveralls": "tap --cov --coverage-report=lcov test/**/*.js && cat coverage/lcov.info | coveralls",
     "standard-fix": "standard --fix",
-    "refresh": "rm -rf node_modules && rm packge-lock.json && npm install"
+    "refresh": "rm -rf node_modules && rm package-lock.json && npm install"
   },
   "devDependencies": {
     "coveralls": "3.0.2",
