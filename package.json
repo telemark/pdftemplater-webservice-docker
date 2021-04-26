@@ -39,7 +39,7 @@
   "devDependencies": {
     "coveralls": "3.0.14",
     "standard": "13.1.0",
-    "tap": "14.6.4"
+    "tap": "14.6.9"
   },
   "dependencies": {
     "hapi": "16.7.0",
