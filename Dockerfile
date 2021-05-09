@@ -1,4 +1,4 @@
-FROM node:10.16.0-slim
+FROM node:11.15.0-slim
 
 #### Begin setup ####
 
